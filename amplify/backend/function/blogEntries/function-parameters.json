@@ -1,0 +1,10 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "notionApiKey",
+      "environmentVariableName": "NOTION_API_KEY"
+    }
+  ],
+  "secretNames": []
+}

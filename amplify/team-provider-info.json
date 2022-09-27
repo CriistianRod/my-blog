@@ -10,6 +10,16 @@
       "StackName": "amplify-myblog-dev-125421",
       "StackId": "arn:aws:cloudformation:us-east-1:178119826165:stack/amplify-myblog-dev-125421/6b0ba6f0-3e8d-11ed-94ac-0e7c28c7eb37",
       "AmplifyAppId": "d2p2s9bwlbehq2"
+    },
+    "categories": {
+      "function": {
+        "blogEntries": {
+          "notionApiKey": "asdf1234"
+        },
+        "allBlogEntries": {
+          "secretsPathAmplifyAppId": "d2p2s9bwlbehq2"
+        }
+      }
     }
   }
 }

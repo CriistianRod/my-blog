@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/entries/{id}": {
+      "name": "/entries/{id}",
+      "lambdaFunction": "blogEntries",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/entries": {
+      "name": "/entries",
+      "lambdaFunction": "allBlogEntries",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
